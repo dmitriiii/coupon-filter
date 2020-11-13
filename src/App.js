@@ -157,13 +157,13 @@ class App extends React.Component{
               Cyber Monday
           </label>
           {this.state.selectedCat !== 'all' || this.state.selectedTyp !== 'all' 
-            ? <button className="contt__control" onClick={this.showAll}><i class="fas fa-sync"></i></button>
+            ? <button className="contt__control" onClick={this.showAll}><i className="fas fa-sync"></i></button>
             : ''
           }
 
-          <label className="contt__control ">
+          <label className="contt__control contt__control-perrow">
             Columns :
-            <select className="contt__control" value={this.state.inrow} onChange={this.updateInRow}>
+            <select value={this.state.inrow} onChange={this.updateInRow}>
               <option>1</option>
               <option>2</option>
               <option>3</option>
