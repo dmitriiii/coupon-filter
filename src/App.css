@@ -45,7 +45,8 @@ button.contt__control{
   background-color: transparent;
   border: none;
   padding: 0;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dashed #666;
+  color: #666;
 }
 
 select{
@@ -64,8 +65,8 @@ select.contt__control:focus{
 }
 
 .contt{
-  max-width: 1200px;
-  margin: 50px	auto;
+  /* max-width: 1200px; */
+  margin: 0px	0 20px;
 }
 .contt__filterz{
   margin-bottom: 10px;
@@ -134,11 +135,13 @@ select.contt__control:focus{
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #fff;
 }
 .gridd__body h3{
-  margin: 0;
+  margin: 0 0 10px;
   color: #428bca;
   font-size: 18px;
+  font-weight: bold;
 }
 .gridd__butts{
   margin-top: auto;
