@@ -148,20 +148,22 @@ select.contt__control:focus{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 .gridd__butt{
-  padding: 7px;
-  font-size: 11px;
+  padding: 12px 10px;
+  font-size: 12px;
   white-space: nowrap;
   text-decoration: none;
-  max-width: 48%;
+  max-width: 210px;
   width: 100%;
+  font-weight: bold;
 }
 .gridd__butt.gridd__butt-url{
   background-color: #33cc99;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   letter-spacing: -0.6px;
 }
@@ -211,5 +213,8 @@ select.contt__control:focus{
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
+  }
+  .gridd__butt{
+    max-width: 100%;
   }
 }
