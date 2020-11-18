@@ -151,13 +151,12 @@ select.contt__control:focus{
   flex-wrap: wrap;
 }
 .gridd__butt{
-  padding: 12px 10px;
-  font-size: 12px;
+  padding: 10px 20px;
+  font-size: 11px;
   white-space: nowrap;
   text-decoration: none;
-  max-width: 210px;
-  width: 100%;
   font-weight: bold;
+  box-shadow: 0 0 4px #666;
 }
 .gridd__butt.gridd__butt-url{
   background-color: #33cc99;
@@ -166,6 +165,7 @@ select.contt__control:focus{
   justify-content: center;
   align-items: center;
   letter-spacing: -0.6px;
+  text-shadow: 0 0 2px #000;
 }
 .gridd__butt.gridd__butt-url:hover,
 .gridd__butt.gridd__butt-url:visited{
@@ -216,5 +216,7 @@ select.contt__control:focus{
   }
   .gridd__butt{
     max-width: 100%;
+    width: 100%;
+    margin-top: 10px;
   }
 }
